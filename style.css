@@ -1,3 +1,18 @@
-body{
+body {
     background-color: rgb(225, 174, 222);
+}
+
+.cabecao {
+    background-color: rgb(29, 34, 49);
+    color: rgb(255, 255, 255);
+}
+
+.cabecaoImg {
+    width: 150px;
+}
+
+ul{
+    justify-content: right;
+    align-items: right;
+    list-style: none;
 }
