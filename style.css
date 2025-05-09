@@ -2,17 +2,17 @@ body {
     background-color: rgb(225, 174, 222);
 }
 
-.cabecao {
+.cabecalho {
     background-color: rgb(29, 34, 49);
     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 35px;
 }
 
-.cabecaoImg {
-    width: 150px;
-}
-
-ul{
-    justify-content: right;
-    align-items: right;
-    list-style: none;
+.cabecalhoListaItem {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 12px 0;
 }
