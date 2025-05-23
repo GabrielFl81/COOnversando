@@ -13,12 +13,36 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 0;
-    height: 100px;
     font-size: 35px;
+}
+
+.cabecalhoImg {
+    height: 100px;
 }
 
 .cabecalhoListaItem {
     display: inline-block;
     margin: 13px 38px;
     padding: 2px 0;
+}
+
+.sobreImagem{
+    width:;
+}
+
+.sobre{
+        background-image: linear gradient(#FFFFFF. #FFFFFF);
+        color: orange;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       padding: 370px 0;
+}
+
+.sobreConteudo{
+        width:;
+}
+
+.sobreTitulo{
+         padding: 100px 50px;
 }
