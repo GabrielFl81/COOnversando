@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(225, 174, 222);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -17,7 +18,8 @@ body {
 }
 
 .cabecalhoImg {
-    height: 100px;
+    width: 200px;
+    order: 0;
 }
 
 .cabecalhoListaItem {
@@ -27,22 +29,32 @@ body {
 }
 
 .sobreImagem{
-    width:;
+    width: 200px;
+    margin: 10px 150px;
+    border-radius: 10px;
+    border: 5px solid #171803;
 }
 
 .sobre{
-        background-image: linear gradient(#FFFFFF. #FFFFFF);
-        color: orange;
-        display: flex;
-        justify-content: center;
-       align-items: center;
-       padding: 370px 0;
+    background-image: linear gradient(#FFFFFF, #FFFFFF);
+    color: #000000;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 70px 120px;
 }
 
 .sobreConteudo{
-        width:;
+    width: 500px;
+    padding: 0px 50px;
 }
 
 .sobreTitulo{
-         padding: 100px 50px;
+    font-size: 50px;
+    padding: 10px 10px;
+}
+
+.sobreTextoUm {
+    font-size: 25px;
+    padding: 0px 10px;
 }
